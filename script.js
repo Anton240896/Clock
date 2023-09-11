@@ -55,7 +55,7 @@ const arrDay = [
     elem.month.textContent = current.month;
     elem.year.textContent = current.year;
   
-    elem.digitalClock.textContent = `${formatTime(
+    elem.digitalClock.textContent = `Kiyv time-${formatTime(
       current.hours
     )} : ${formatTime(current.minutes)} : ${formatTime(current.seconds)}`;
   
