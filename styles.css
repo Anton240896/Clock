@@ -9,7 +9,7 @@ body {
     height: 430px;
     background-image: url(https://i.pinimg.com/736x/3b/16/8f/3b168f41c7bd08f685869ae9eaa2dc82--fancy-clock-modern-wall-clocks.jpg);
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 100%;
     position: relative;
     left: 450px;
 }
@@ -25,7 +25,7 @@ body {
 
 .clock-seconds__arrow {
     bottom: 50%;
-    left: 50%;
+    left: 49%;
     width: 5px;
     height: 40%;
 }
@@ -39,7 +39,7 @@ body {
 
 .clock-hours__arrow {
     bottom: 50%;
-    left: 50%;
+    left: 48%;
     width: 12px;
     height: 24%;
 }
