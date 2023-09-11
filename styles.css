@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2022-03/kyiv.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clock {
+    width: 430px;
+    height: 430px;
+    background-image: url(https://i.pinimg.com/736x/3b/16/8f/3b168f41c7bd08f685869ae9eaa2dc82--fancy-clock-modern-wall-clocks.jpg);
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    left: 450px;
+}
+
+.clock-arrow {
+    position: absolute;
+    background-color: rgb(49, 44, 44);
+    transform-origin: bottom;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.clock-seconds__arrow {
+    bottom: 50%;
+    left: 50%;
+    width: 5px;
+    height: 40%;
+}
+
+.clock-minutes__arrow {
+    bottom: 50%;
+    left: 50%;
+    width: 7px;
+    height: 33%;
+}
+
+.clock-hours__arrow {
+    bottom: 50%;
+    left: 50%;
+    width: 12px;
+    height: 24%;
+}
+
+.date {
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-style {
+    display: flex;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 3px 2px #cecbcd;
+}
+
+.digital-clock {
+    font-size: 60px;
+    text-shadow: 3px 3px 2px #cecbcd;
+}
