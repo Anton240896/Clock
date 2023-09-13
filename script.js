@@ -70,6 +70,7 @@ const arrDay = [
     elem.hoursArrow.style.transform = `rotate(${hoursDeg}deg)`;
   }, 1000);
   
+  
   function formatTime(value) {
     return value.toString().padStart(2, "0");
   }
